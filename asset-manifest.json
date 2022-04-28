@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Responsive-Portfolio-Website/static/css/main.2d63fa66.css",
+    "main.js": "/React-Responsive-Portfolio-Website/static/js/main.bf16a65c.js",
+    "static/media/youngMan1-jpg.jpg": "/React-Responsive-Portfolio-Website/static/media/youngMan1-jpg.556aa11dc43c4d1c1f09.jpg",
+    "static/media/image-4.jpg": "/React-Responsive-Portfolio-Website/static/media/image-4.d145ce85607cbe2d82ca.jpg",
+    "static/media/image-3.jpg": "/React-Responsive-Portfolio-Website/static/media/image-3.ea9982fc65b9d74f2199.jpg",
+    "static/media/image-1.jpg": "/React-Responsive-Portfolio-Website/static/media/image-1.05a7c305d20048c672d1.jpg",
+    "static/media/image-5.jpg": "/React-Responsive-Portfolio-Website/static/media/image-5.abe38de66e75ac75ef22.jpg",
+    "static/media/man2.jpg": "/React-Responsive-Portfolio-Website/static/media/man2.b23ac90d0c5e0c4777bb.jpg",
+    "static/media/man1.jpg": "/React-Responsive-Portfolio-Website/static/media/man1.eee4c77071345a20e989.jpg",
+    "static/media/girl.jpg": "/React-Responsive-Portfolio-Website/static/media/girl.f0c90c7ccc0d72645305.jpg",
+    "static/media/heroIMG.svg": "/React-Responsive-Portfolio-Website/static/media/heroIMG.3eb1d32161ea7d1a38d63be515cfa72c.svg",
+    "index.html": "/React-Responsive-Portfolio-Website/index.html",
+    "main.2d63fa66.css.map": "/React-Responsive-Portfolio-Website/static/css/main.2d63fa66.css.map",
+    "main.bf16a65c.js.map": "/React-Responsive-Portfolio-Website/static/js/main.bf16a65c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d63fa66.css",
+    "static/js/main.bf16a65c.js"
+  ]
+}
