@@ -1,0 +1,78 @@
+.myWork {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2.5rem 0;
+}
+
+.myWork .first-col,
+.myWork .second-col,
+.myWork .third-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.myWork .first-col h2,
+.myWork .second-col h2,
+.myWork .third-col h2 {
+  font-size: 22px;
+  color: #FF6666;
+  margin-bottom: .5rem;
+  font-weight: 700;
+}
+.myWork .first-col p,
+.myWork .second-col p,
+.myWork .third-col p {
+  font-size: 12px;
+  color: #777;
+  font-weight: 400;
+  line-height: 0;
+  margin: 0;
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .myWork {
+    margin: 5.5rem 0;
+    justify-items: center;
+    gap: 2rem;
+}
+.myWork .first-col h2, .myWork .second-col h2, .myWork .third-col h2 {
+  font-size: 3rem;
+}
+.myWork .first-col p, .myWork .second-col p, .myWork .third-col p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+}
+
+
+@media screen and (max-width: 1025px) {
+  .myWork {
+    margin: 5.5rem 0;
+    justify-items: center;
+    gap: 2rem;
+}
+.myWork .first-col h2, .myWork .second-col h2, .myWork .third-col h2 {
+  font-size: 3rem;
+}
+.myWork .first-col p, .myWork .second-col p, .myWork .third-col p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .myWork {
+    margin: 2.5rem 0;
+    justify-items: center;
+    gap: 0;
+}
+.myWork .first-col h2, .myWork .second-col h2, .myWork .third-col h2 {
+  font-size: 1.7rem;
+}
+.myWork .first-col p, .myWork .second-col p, .myWork .third-col p {
+  font-size: .83rem;
+  text-align: center;
+}
+}

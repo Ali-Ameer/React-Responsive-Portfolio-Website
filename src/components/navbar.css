@@ -1,0 +1,90 @@
+.navbar {
+  background-color: #fff;
+  padding: 1rem 0;
+  color: #777;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 0 10px 0 #ddd;
+}
+.navbar .container {
+  width: 85%;
+  margin: auto;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h3 {
+  color: var(--primaryColor);
+}
+
+.navbar nav {
+  max-width: 50%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar nav a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #777;
+}
+
+.navbar nav a:hover {
+  color: #333;
+}
+
+.navbar .menu {
+  display: none;
+  position: relative;
+  z-index: 100;
+}
+.navbar .menu svg {
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar .nav-menu {
+  position: relative;
+}
+
+.nav-menu_scale {
+  position: absolute;
+  background-color: #66f;
+  top: 43px;
+  right: -31px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px 2px 6px 3px #00000033;
+  width: 250px;
+  justify-content: center;
+  place-self: center;
+}
+.navbar .nav-menu_scale a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 2rem 0rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(118 118 251);
+}
+
+/* phone size */
+
+@media screen and (max-width: 480px) {
+  .navbar .menu {
+    display: flex;
+  }
+  .navbar nav {
+    display: none;
+  }
+
+
+  
+}

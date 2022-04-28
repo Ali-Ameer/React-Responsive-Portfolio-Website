@@ -1,0 +1,35 @@
+
+.links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 40px;
+    top: calc(50% - 47px);
+    z-index: 20;
+}
+
+.links::before {
+    content: "Follow me";
+    transform: rotate(-90deg);
+    position: relative;
+    color: #777;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 0 0 50px 0rem;
+}
+
+.links a {
+    display: flex;
+    margin-bottom: .8rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.myIcon {
+    color: #777;
+    font-size: 18px;
+}
+.myIcon:hover {
+    color: #66f;
+    transition: 300ms all ease;
+}

@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    padding: 1rem 0;
+    justify-items: center;
+    border-top: 1px solid #eee;
+}
+.footer .container {
+    width: 85%;
+    margin: auto;
+}
+
+.footer span {
+    display: flex;
+    padding: 2px 4px;
+    justify-content: center;
+    color: #777;
+    font-size: 13px;
+    font-whight: 500;
+    text-transform: uppercase;
+}
+
+a , span.author {
+    color: #66f;
+    text-decoration: none;
+}

@@ -1,0 +1,187 @@
+.testimonial {
+  padding: 5rem 0;
+  padding-bottom: 1rem;
+  height: 100%;
+}
+.testimonial .container {
+  width: 75%;
+  margin: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.slideUpdate {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  place-items: center;
+  align-items: center;
+  width: 100%;
+}
+.slideUpdate .arrow{
+  display: flex;
+  gap: 2rem
+}
+.testimonial .slideUpdate #previousButton .myIcon,
+.testimonial .slideUpdate #nextButton .myIcon {
+  font-Size: 3rem;
+  color: #fff;
+  background-color: #66f;
+  padding: .5rem;
+  cursor: pointer;
+}
+.testimonial .slideUpdate #previousButton .myIcon:hover,
+.testimonial .slideUpdate #nextButton .myIcon:hover {
+  background-color: rgb(75, 75, 255);
+  transition: 300ms all ease;
+}
+.testimonial .slideUpdate #previousButton,
+.testimonial .slideUpdate #nextButton {
+  cursor: pointer;
+  height: fit-content;
+}
+.testi-item {
+  margin: 3rem;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 300px auto;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.testi-avatar {
+  width: 300px;
+  height: 400px;
+  border-radius: 1%;
+  border: 6px solid #fff;
+  box-shadow: 0 0 .5rem 0 rgb(102 102 255 / 33%);
+}
+
+.testi-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testi-content {
+  position: relative;
+  padding: 0.5rem;
+  padding-top: 2rem;
+  /* display: grid; */
+  padding-right: 2rem;
+}
+.testi-content h4 {
+  font-size: 14px;
+  color: #66f;
+  font-weight: 400;
+  font-family: 'Poppins';
+  place-self: start;
+  text-align: start;
+  margin-bottom: 5px;
+}
+.testi-content p {
+  color: #777;
+  font-size: 14px;
+  text-align: start;
+  position: relative;
+}
+
+.testi-content .containers {
+  display: flex;
+  justify-content: space-between;
+  color: #bbb;
+  position: relative;
+  place-items: center;
+  align-items: center;
+}
+
+.testi-content .containers .myIcon {
+  /* position: absolute; */
+  color: #66f;
+  font-size: 4em;
+}
+.testi-info {
+  text-align: start;
+  padding: 1rem 0;
+}
+
+.testi-info h3 {
+  font-weight: 600;
+  color: #66f;
+  font-size: 18px;
+}
+
+.testi-info h4 {
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 6px;
+  color: #000;
+}
+
+
+@media screen and (max-width: 480px) {
+  .testimonial .container {
+    width: 84%;
+    margin: auto;
+}
+.testi-item {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: none;
+  overflow: hidden;
+  gap: 0;
+}
+.testi-item {
+  margin: 0;
+  padding: 1rem;
+}
+.testi-avatar {
+  width: 100%;
+  height: 250px;
+}
+.testi-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.testi-content {
+  padding: 1rem 0;
+}
+.testi-info {
+  text-align: center;
+  text-align-last: center;
+}
+}
+
+
+@media screen and (max-width: 1025px) {
+  .testimonial .container {
+    width: 90%;
+    margin: auto;
+}
+.testi-item {
+  margin: 0rem;
+  gap: 2rem;
+}
+.testi-content {
+  padding-right: 1rem;
+}
+
+
+
+}

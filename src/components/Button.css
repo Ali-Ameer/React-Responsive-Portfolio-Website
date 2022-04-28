@@ -1,0 +1,25 @@
+button.primary, button.secondary {
+  padding: .7rem 1.5rem;
+  color: #fff;
+  background-color: #66f;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: -10px 12px 1.5rem 0 #ddd;
+  display: flex;
+  align-items: center;
+}
+button.secondary {
+  background-color: #FF6666;
+}
+button.primary:hover {
+    background-color: rgb(75, 75, 255);
+    transition: 300ms all ease;
+}
+
+button.secondary:hover {
+  background-color: #fd4949;
+  transition: 300ms all ease;
+}

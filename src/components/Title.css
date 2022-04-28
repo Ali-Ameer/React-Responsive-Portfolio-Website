@@ -1,0 +1,29 @@
+h1.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #66f;
+    margin-bottom: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+h1.title::after {
+    content: '';
+    height: 2px;
+    width: 250px;
+    background-color: #66f;
+    position: absolute;
+    bottom: -1rem;
+  }
+  
+h1.title::before {
+    content: '';
+    height: 8px;
+    width: 30px;
+    background-color: #66f;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -1.2rem;
+    z-index: 2;
+  }
